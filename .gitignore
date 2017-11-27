@@ -1,3 +1,6 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
 # <DEFAULT>  # Warning: text inside the DEFAULT tags is auto-generated. Manual changes will be overwritten.
 # OS generated
 .DS_Store
@@ -22,3 +25,30 @@ Thumbs.db
 /static_collected
 /node_modules
 # </DEFAULT>
+
+.sass-cache
+.eyeglass_cache
+
+/tmp
+/env
+/docs/_build
+/docs/env
+
+/src/settings_local*.py
+/requirements_local*.txt
+
+/bower_components
+npm-debug.log
+*.css.map
+/static/css/
+/static/vendor
+/static/docs/
+/static/js/dist/
+
+/tests/coverage
+/tests/integration/index.bundle.js
+
+Gemfile.lock
+.bundle/
+
+/tools/server/env
